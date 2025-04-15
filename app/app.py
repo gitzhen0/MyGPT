@@ -58,7 +58,7 @@ with col1:
 with col2:
     if st.button("🗂 保存聊天记录"):
         path = save_markdown_by_date(st.session_state.history[1:])
-        st.success(f"保存成功：{path}")
+        st.success(f"保存成功")
 
 # 用户输入
 user_input = st.chat_input("请输入你的问题...")

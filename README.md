@@ -3,7 +3,9 @@
 * Personalized GPT, for Easy Markdown Export
 
 ### Problem List
-* 
+* 无法上网
+* 无法图片
+* token 记忆问题
 
 ### Sample config.py
 
