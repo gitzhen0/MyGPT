@@ -1,7 +1,7 @@
 # app.py
 import streamlit as st
 from openai import OpenAI
-from config import OPENAI_API_KEY, DEFAULT_OPENAI_CONFIG
+from config import OPENAI_API_KEY, DEFAULT_OPENAI_CONFIG, SYSTEM_PROMPT
 from utils import save_markdown_by_date
 
 # 初始化 OpenAI 客户端
@@ -13,7 +13,7 @@ st.set_page_config(page_title="ChatGPT Web", layout="wide")
 # 初始化聊天记录
 if "history" not in st.session_state:
     st.session_state.history = [
-        {"role": "system", "content": "你是一个中文助手，请尽可能详细地回答用户的问题。"}
+        {"role": "system", "content": SYSTEM_PROMPT}
     ]
 
 # 顶部区域：标题 + 保存按钮

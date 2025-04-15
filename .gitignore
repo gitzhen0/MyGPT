@@ -11,3 +11,7 @@ app/config.py
 # 系统和 IDE 文件
 .DS_Store
 .vscode/
+
+# VS Code / PyCharm 设置
+.idea/
+*.iml
