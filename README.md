@@ -7,6 +7,9 @@
 * 无法图片
 * token 记忆问题, 无法总结
   * 如果我用网页版 gpt, 一次聊天, 虽然 token 上线就那么高, 但似乎, gpt 能总提炼总结, 但我现在这个的话, 他似乎只是机械的把聊天记录发回给 api, 一旦聊天记录超过 token 上线, 是不是就....
+    * memory agent 
+    * LangChain + FAISS + OpenAI embedding
+    * memory + embedding + retrieval
 
 ### Sample config.py
 
