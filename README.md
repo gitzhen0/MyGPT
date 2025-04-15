@@ -2,6 +2,10 @@
 
 * Personalized GPT, for Easy Markdown Export
 
+## Run Code
+* streamlit run app/app.py
+* requirements: ?
+
 ### Problem List
 * 无法上网
 * 无法图片
@@ -10,6 +14,8 @@
     * memory agent 
     * LangChain + FAISS + OpenAI embedding
     * memory + embedding + retrieval
+* urgent:
+  * 点还是对不齐
 
 ### Sample config.py
 
